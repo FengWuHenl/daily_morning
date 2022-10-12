@@ -144,7 +144,7 @@ data = {
    "pm25":{
     "value": weather['pm25'],
     'color': get_random_color()
-  }
+  },
   #空气指数
   "air_data": {
     "value": weather['airData'],
