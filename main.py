@@ -110,7 +110,7 @@ data = {
     "color": get_random_color()
   },
   "date": {
-    "value": today.strftime('%Y年%m月%d日'),
+    "value": today.strftime('%Y年%m月%d日\n我有一壶酒，足以慰风尘'),
     "color": get_random_color()
   },
   "week_day": {
