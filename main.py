@@ -127,9 +127,9 @@ data = {
   },
   #天气更新时间
   "weatherUpdateTime":{
-    "value":weather['lastUpdateTime'] + "更新",
+    "value":weather['lastUpdateTime'] + ' 更新',
     "color":get_random_color()
-  }
+  },
   #湿度
   "humidity": {
     "value": weather['humidity'],
