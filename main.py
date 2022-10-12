@@ -114,7 +114,7 @@ data = {
     "color": get_random_color()
   },
   "city": {
-    "value": city['city'],
+    "value": city,
     "color": get_random_color()
   },
   "weather": {
