@@ -1,6 +1,7 @@
 **示例模板：**
 
 今天是:  {{ date.DATA }} {{ week_day.DATA }}  
+当前城市:  {{city.DATA}}  
 今日天气:  {{ weather.DATA }}  
 湿度:  {{ humidity.DATA }}  
 风向风力:  {{ wind.DATA }}  
