@@ -105,16 +105,16 @@ if weather is None:
   print('获取天气失败')
   exit(422)
 data = {
-  "city": {
-    "value": city,
-    "color": get_random_color()
-  },
   "date": {
-    "value": today.strftime('%Y年%m月%d日\n我有一壶酒，足以慰风尘'),
+    "value": today.strftime('%Y年%m月%d日'),
     "color": get_random_color()
   },
   "week_day": {
     "value": get_week_day(),
+    "color": get_random_color()
+  },
+  "city": {
+    "value": city['city'],
     "color": get_random_color()
   },
   "weather": {
