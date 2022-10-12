@@ -5,7 +5,7 @@
 今日天气: {{ weather.DATA }} {{weatherUpdateTime.DATA}}  
 湿       度: {{ humidity.DATA }} 
 风向风力: {{ wind.DATA }} 
-pm 2.5   : {{ pm25.DATA }}  
+pm 2.5  : {{ pm25.DATA }}  
 空气指数: {{ air_data.DATA }}   
 空气质量: {{ air_quality.DATA }}   
 当前温度: {{ temperature.DATA }} ℃   
