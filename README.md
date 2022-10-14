@@ -12,7 +12,7 @@ pm 2.5  : {{ pm25.DATA }}
 最低气温: {{ lowest.DATA }} ℃  
 最高气温: {{ highest.DATA }} ℃  
 
-我已经运行 {{ love_days.DATA }} 天啦 ~ 
+我已经运行 {{ love_days.DATA }} 天啦 ~   
 距离你的生日还有 {{ birthday_left.DATA }} 天 ~  
 
 {{ words.DATA }}	
